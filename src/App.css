@@ -350,43 +350,15 @@ template {
 
 
 
-
-
-.App {
-  text-align: center;
+:root {
+  --pale-grey: #edf4f6;
+  --dodger-blue: #329df1;
+  --dark-indigo: #09143a;
+  --pastel-purple: #cdadff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--pale-grey);
+  font-family: 'Ubuntu', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 2s linear;
-  }
-}
-
-.App-header {
-  background-color: #A06AF4;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #09143A;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate3d(0, 1, 0, -60deg);
-  }
-  to {
-    transform: rotate3d(0, 1, 0, 60deg);
-  }
-}

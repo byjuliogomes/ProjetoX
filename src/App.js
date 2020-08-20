@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          Iniciando o front! ✌🃏
+          Iniciando o front agora! ✌🃏
         </h1>
       </header>
     </div>

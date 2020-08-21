@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Explore() {
+export default function Index() {
     return (
         <>
             <h1>Página ainda vai ser criada.</h1>

@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from 'react-router-dom'
+import PageTransition from 'react-router-page-transition';
 
 const PlusVertical = styled.div`
 position: absolute;
 height: 17.43px;
 border: 1.5px solid #A06AF4;
+background-color: #A06AF4;
 z-index:3;
 border-radius: 20%;
 margin-top: 5px;
@@ -15,6 +17,7 @@ const PlusHorizontal = styled.div`
 position: absolute;
 height: 17.43px;
 border: 1.5px solid #A06AF4;
+background-color: #A06AF4;
 z-index:3;
 border-radius: 20%;
 margin-top: 5px;
@@ -39,7 +42,7 @@ const BtnNovoDeckBack = styled.div`
   z-index: -1;
   padding-left: 0px;
   margin-top: 4px;
-  margin-left: 4px;
+  margin-left: 5px;
 `;
 
 const ContainerFront = styled.div`

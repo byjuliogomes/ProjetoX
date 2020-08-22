@@ -8,14 +8,18 @@ height: 112px;
 width: 100%;
 margin-top: -60px;
 margin-botton: 17px;
-background-color: pink;
+
 `
 const Slide1 = styled.div`
-width: 254px;
+width: 80%;
 height: 112px;
-margin-right: 10.3%;
-margin-left: 10.3%;
-background-color: yellow;
+margin-right: 10%;
+margin-left: 10%;
+background: url("https://i.pinimg.com/originals/ab/7e/22/ab7e22e47ce56b58d0805ee967350124.png") no-repeat;
+background-size: cover; 
+box-shadow: 0px 11px 5px -11px rgba(0, 0, 0, 0.25);
+border-radius: 9.22179px;
+
 `
 
 

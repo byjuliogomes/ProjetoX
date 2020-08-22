@@ -10,7 +10,7 @@ const BackHeader = styled.div`
 `;
 
 const ContainerdoHeader = styled.div`
-padding: 32px  24px;
+padding: 24px  24px;
   height: 39.85px;
   top: 23px;
   display: flex;

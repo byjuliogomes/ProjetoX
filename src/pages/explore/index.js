@@ -7,7 +7,6 @@ export default function Explore() {
         <>
             <Header></Header>
             <Link to="/categorias">Entre em categorias</Link>
-            <Link to="/categorias">Entre em categorias</Link>
         </>
     )
 }

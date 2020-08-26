@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
+
 const ContainerBtnCategories = styled.div`
   width: 80px;
-  height: 80px;
-  margin-right: 6px;
+  height: 92px;
+  margin-right: 20px;
+  text-align: center;
 `;
 
 const BackCategories = styled.div`
@@ -26,7 +28,6 @@ const CircleCategories = styled.div`
 
 
 const IconCategories = styled.img`
-  background: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/office-building_1f3e2.png) no-repeat;
   width:30px;
   height:30px;
   background-size: cover;
@@ -36,6 +37,12 @@ const NameCategories = styled.div`
 `;
 
 export default class BtnCategories extends React.Component {
+  constructor(props){
+super(props)
+
+
+  }
+  
   render() {
     return (
       <>
@@ -45,7 +52,7 @@ export default class BtnCategories extends React.Component {
                         <IconCategories></IconCategories>
             </CircleCategories>
           </BackCategories>
-          <NameCategories>Administração</NameCategories>
+          <NameCategories>{this.props.name}</NameCategories>
         </ContainerBtnCategories>
       </>
     );

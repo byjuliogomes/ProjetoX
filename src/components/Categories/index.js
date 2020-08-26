@@ -5,7 +5,7 @@ import BtnCategories from "../BtnCategories";
 const ContainerCategories = styled.div`
   margin-top: 18px;
   margin-left: 23px;
-  width: 100%;
+  width: 100VW;
   right: 0;
   top: 23px;
 `;
@@ -33,14 +33,14 @@ export default class Categories extends React.Component {
         <ContainerCategories>
           <Title>Categorias</Title>
           <ContainerBtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
-            <BtnCategories></BtnCategories>
+            <BtnCategories name="Administração" icon="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/office-building_1f3e2.png"></BtnCategories>
+            <BtnCategories name="Artes" icon="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/artist-palette_1f3a8.png"></BtnCategories>
+            <BtnCategories name="Biologia"></BtnCategories>
+            <BtnCategories name="Concursos"></BtnCategories>
+            <BtnCategories name="Contabilidade"></BtnCategories>
+            <BtnCategories name="Cultura Pop"></BtnCategories>
+            <BtnCategories name="Direito"></BtnCategories>
+            <BtnCategories name="Ed. Física"></BtnCategories>
           </ContainerBtnCategories>
         </ContainerCategories>
       </>

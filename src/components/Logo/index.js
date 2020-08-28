@@ -5,7 +5,7 @@ const LogoStyled = styled.img`
 background: url("././assets/logo_mobile.svg") no-repeat;
 
 @media(min-width: 800px) {
-    width: 190px;
+    width: 120px;
     height: auto;
   }
 `;

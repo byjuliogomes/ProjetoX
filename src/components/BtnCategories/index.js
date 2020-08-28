@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const ContainerBtnCategories = styled.div`
   width: 80px;
-  height: 92px;
+  height: 84px;
   margin-right: 20px;
   text-align: center;
 `;
@@ -49,7 +49,7 @@ super(props)
         <ContainerBtnCategories>
           <BackCategories>
             <CircleCategories>
-                        <IconCategories></IconCategories>
+              <IconCategories src={this.props.icon}></IconCategories>
             </CircleCategories>
           </BackCategories>
           <NameCategories>{this.props.name}</NameCategories>

@@ -3,11 +3,15 @@ import styled from "styled-components";
 import BtnCategories from "../BtnCategories";
 
 const ContainerCategories = styled.div`
-  margin-top: 18px;
+  margin-top: 42px;
   margin-left: 23px;
   width: 100VW;
   right: 0;
   top: 23px;
+   @media(min-width: 800px){
+    margin-left: 12%;
+    margin-top: 12px
+  }
 `;
 
 const ContainerBtnCategories = styled.div`
@@ -24,6 +28,11 @@ const Title = styled.h3`
   font-weight: 600;
   margin-bottom: 12px;
   color: var(--dark-indigo);
+  @media(min-width: 800px){
+    margin-top: 62px;
+    margin-bottom: 24px;
+  }
+   
 `;
 
 export default class Categories extends React.Component {
@@ -41,6 +50,21 @@ export default class Categories extends React.Component {
             <BtnCategories name="Cultura Pop"></BtnCategories>
             <BtnCategories name="Direito"></BtnCategories>
             <BtnCategories name="Ed. Física"></BtnCategories>
+            <BtnCategories name="Espanhol"></BtnCategories>
+            <BtnCategories name="Filosofia"></BtnCategories>
+            <BtnCategories name="Física"></BtnCategories>
+            <BtnCategories name="Francês"></BtnCategories>
+            <BtnCategories name="Geografia"></BtnCategories>
+            <BtnCategories name="História"></BtnCategories>
+            <BtnCategories name="Informática"></BtnCategories>
+            <BtnCategories name="Inglês"></BtnCategories>
+            <BtnCategories name="Lógica"></BtnCategories>
+            <BtnCategories name="Matemática"></BtnCategories>
+            <BtnCategories name="Pedagogia"></BtnCategories>
+            <BtnCategories name="Português"></BtnCategories>
+            <BtnCategories name="Psicologia"></BtnCategories>
+            <BtnCategories name="Saúde"></BtnCategories>
+            <BtnCategories name="Sociologia"></BtnCategories>
           </ContainerBtnCategories>
         </ContainerCategories>
       </>

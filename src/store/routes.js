@@ -3,7 +3,7 @@ import Explore from "../pages/explore";
 import Login from "../pages/login";
 import Categorias from "../pages/categorias";
 import NovoDeck from "../pages/novodeck";
-import { BrowserRouter, Switch, Route, useHistory } from "react-router-dom";
+import { Switch, Route, useHistory } from "react-router-dom";
 
 export default function Routes() {
   return (

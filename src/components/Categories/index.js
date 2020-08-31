@@ -3,14 +3,14 @@ import styled from "styled-components";
 import BtnCategories from "../BtnCategories";
 
 const ContainerCategories = styled.div`
-  margin-top: 42px;
-  margin-left: 23px;
+  margin-top: 2.625rem;
+  margin-left: 1.4375rem;
   width: 100VW;
   right: 0;
-  top: 23px;
+  top: 1.4375rem;
    @media(min-width: 800px){
     margin-left: 12%;
-    margin-top: 12px
+    margin-top: 0.75rem;
   }
 `;
 
@@ -21,16 +21,18 @@ const ContainerBtnCategories = styled.div`
   ::-webkit-scrollbar {
     width: 0px;
 }
+  
 `;
 
 const Title = styled.h3`
   font-size: 16pt;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
   color: var(--dark-indigo);
+  
   @media(min-width: 800px){
-    margin-top: 62px;
-    margin-bottom: 24px;
+    margin-top: 3.875rem;
+    margin-bottom: 1.5rem;
   }
    
 `;

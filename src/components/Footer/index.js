@@ -8,8 +8,7 @@ const BackFooter = styled.div`
     display: block;
     background-color: var(--dodger-green-light);
     width: 100VW;
-    height: 88px;
-    margin-top: 12px;
+    height: 5.5rem;
     }
 `
 const ContainerFooter = styled.div`
@@ -18,7 +17,7 @@ const ContainerFooter = styled.div`
     @media(min-width: 800px) {
     display: flex;
     margin: 0 12% 0 12%;
-    height: 88px;
+    height: 5.5rem;
     align-items: center;
     }
 `

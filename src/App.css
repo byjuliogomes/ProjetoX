@@ -362,5 +362,6 @@ template {
 body {
   background-color: var(--pale-grey);
   font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
 }
 

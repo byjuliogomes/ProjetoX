@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 
 const ContainerBtnCategories = styled.div`
-  width: 80px;
-  height: 84px;
-  margin-right: 20px;
+  width: 5rem;
+  height: 5.25rem;
+  margin-right: 1.25rem;
   text-align: center;
 `;
 
@@ -16,10 +16,10 @@ const BackCategories = styled.div`
 `;
 
 const CircleCategories = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   background-color: #ffdddd;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   border-radius: 50%;
   display:flex;
     justify-content: center;
@@ -28,8 +28,8 @@ const CircleCategories = styled.div`
 
 
 const IconCategories = styled.img`
-  width:30px;
-  height:30px;
+  width:1.875rem;
+  height:1.875rem;
   background-size: cover;
 `;
 const NameCategories = styled.div`

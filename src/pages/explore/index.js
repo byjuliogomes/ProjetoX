@@ -4,11 +4,11 @@ import { Carousel } from '../../components/Carrossel';
 import Categories from '../../components/Categories';
 import HotDecks from '../../components/HotDecks';
 import Footer from '../../components/Footer';
-
-export default function Explore() {
+ 
+const Explore = () => {
     return (
         <>
-            <Header></Header>
+            <Header login={true}></Header>
             <Carousel></Carousel>
             <Categories></Categories>
             <HotDecks></HotDecks>
@@ -16,3 +16,5 @@ export default function Explore() {
         </>
     )
 }
+
+export default Explore

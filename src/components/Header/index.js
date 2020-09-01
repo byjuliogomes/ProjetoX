@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Logo from "../Logo";
 import { BtnNovoDeck } from "../BtnNovoDeck";
 import { Link } from "react-router-dom";
+import { FiUser, FiLogOut } from "react-icons/fi";
 
 const BackHeader = styled.div`
   width: 100%;
@@ -54,7 +55,7 @@ const DropdownContent = styled.div`
   z-index: 3;
   margin-top: 2.625rem;
   border-radius: 0.25rem;
-  width: 5rem;
+  width: 6rem;
 
   ul {
     padding-left: 0px;
@@ -65,10 +66,18 @@ const DropdownContent = styled.div`
     margin: 0.75rem;
     text-align: center;
     font-size: 12pt;
+    display: flex;
+    justify-content: center;
+    
   }
 
   ul a {
     text-decoration: none;
+    color: var(--dark-indigo);
+
+    :footer {
+    color: var(--dodger-blue);
+  }
   }
 `;
 
@@ -85,6 +94,26 @@ const Dropdown = styled.div`
   }
 `;
 
+const UserIcon = styled(FiUser)`
+  color: var(--dark-indigo);
+  width: 1rem;
+  margin-right: 4px;
+
+  :footer {
+    color: var(--dodger-blue);
+  }
+`
+
+const LogoutIcon = styled(FiLogOut)`
+  color: var(--dark-indigo);
+  width: 1rem;
+  margin-right: 4px;
+
+  :footer {
+    color: var(--dodger-blue);
+  }
+`
+
 const Header = (props) => {
   return (
     <>
@@ -98,10 +127,10 @@ const Header = (props) => {
               <DropdownContent>
                 <ul class="dropdown">
                   <li>
-                    <a href="#">Perfil</a>
+                    <Link to="/perfil"><UserIcon />Perfil</Link>
                   </li>
                   <li>
-                    <Link to="/login">Sair</Link>
+                    <Link to="/login"><LogoutIcon />Sair</Link>
                   </li>
                 </ul>
               </DropdownContent>

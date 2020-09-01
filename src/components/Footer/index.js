@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 const BackFooter = styled.div`
     display: none;
@@ -19,6 +20,8 @@ const ContainerFooter = styled.div`
     margin: 0 12% 0 12%;
     height: 5.5rem;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
     }
 `
 
@@ -35,21 +38,52 @@ const Icons = styled.div`
     display: none;
 
     @media(min-width: 800px) {
+        display: flex;
+        justify-content: flex-end;
     }
 `;
 
+const FaceIcon = styled(FiFacebook)`
+  color: var(--steel);
+  width: 1rem;
+  margin-right: 4px;
 
-export default class Footer extends React.Component {
-    render() {
+  :footer {
+    color: var(--dodger-blue);
+  }
+`
+
+const InstaIcon = styled(FiInstagram)`
+  color: var(--steel);
+  width: 1rem;
+  margin-right: 4px;
+
+  :footer {
+    color: var(--dodger-blue);
+  }
+`
+
+const TwiIcon = styled(FiTwitter)`
+  color: var(--steel);
+  width: 1rem;
+  margin-right: 4px;
+
+  :footer {
+    color: var(--dodger-blue);
+  }
+`
+
+const Footer = () => {
         return (
             <>
             <BackFooter>
                 <ContainerFooter>
                         <RightsReserved>© 2020, All Rights Reserved, EBBI Entertainment</RightsReserved>
-                        <Icons></Icons>
+                        <Icons><FaceIcon /><InstaIcon /><TwiIcon /></Icons>
                 </ContainerFooter>
             </BackFooter>
             </>
         );
     }
-}
+
+export default Footer

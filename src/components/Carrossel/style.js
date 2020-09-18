@@ -5,7 +5,7 @@ position: relative;
 height: 7rem;
 width: 100%;
 margin-top: -3.75rem;
-margin-botton: 2rem;
+margin-bottom: 2rem;
 display: flex;
 align-items: center;
 

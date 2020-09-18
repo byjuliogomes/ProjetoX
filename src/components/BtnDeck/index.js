@@ -4,7 +4,6 @@ import PageTransition from "react-router-page-transition";
 import * as S from "./style";
 
 
-
 export function BtnDeck(props) {
   return (
     <>
